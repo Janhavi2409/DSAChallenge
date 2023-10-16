@@ -11,6 +11,7 @@ public class JaggedArray {
                 arr[i][j] = (int)(Math.random()*10);
             }
         }
+
         for(int[] i:arr){
             for(int j:i){
                 System.out.print(j+" ");
